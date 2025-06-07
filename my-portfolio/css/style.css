@@ -1,0 +1,159 @@
+body{
+    background: rgba(13, 13, 13, 1);
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 45px;
+    margin-left: 420px;
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 2px solid rgba(68, 68, 68, 1);
+}
+
+/* NavBar */
+nav{
+    position: relative;
+    padding-left: 50px;
+    height: 50px;
+    border-bottom: 2px solid rgba(68, 68, 68, 1);
+    z-index: 1000;
+}
+.nav-container{
+    display: flex;
+
+}
+ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    background: rgba(0, 206, 209, 0.87);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    font-size: larger;
+    padding: 8px 22px;
+} 
+li a:hover{
+    color: black;
+    background-color: rgba(0, 191, 255, 0.87);
+}
+
+
+/* Hero Section */
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+}
+.dp{
+    width: 250px;
+    height: auto;
+    border-radius: 500px;
+    padding: 80px;
+}
+.hero-text{
+    color: rgba(255, 255, 255, 1);
+    padding: 30px;
+    margin-top: 60px;
+}
+.hiriya{
+    padding-left: 180px;
+}
+.hero-text h1{
+    color: rgba(204, 204, 204, 1);
+    font-family: "Merienda One";
+    font-size: 45px;
+    font-weight: 1;
+}
+.subtext{
+    padding-left: 50px;
+}
+
+
+/* About page */
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+    color:  rgba(204, 204, 204, 1);
+}
+.about-text strong{
+    font-size: 20px;
+    font-weight: 1;
+}
+.aboutbtn-section{
+    display: inline-block;
+    margin: 50px;
+    padding-left: 260px;
+}
+.aboutbtn{
+    padding: 8px 22px;
+    text-decoration: none;
+    background: rgba(0, 206, 209, 0.87);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    font-size: larger; 
+} 
+.aboutbtn:hover{
+    color: black;
+    background-color: rgba(0, 191, 255, 0.87);
+}
+
+/* Skills page */
+
+.skills-text{
+    text-align: center;
+}
+
+.skills-text p{
+    color: rgba(204, 204, 204, 1);
+}
+
+.skills-text h4{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 1;
+}
+
+.programmer span{
+    color: rgba(255, 255, 255, 1);
+}
+
+.skills-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid rgba(68, 68, 68, 1);
+    width: 500px;
+    padding: 2rem;
+}
+
+.skills-left{
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+}
+
+.skills-right{
+    flex: 1;
+    min-width: 250px;
+    text-align: right;
+}
+
+/* Conatct page */
+
+.contact-text{
+    width: 500px;
+    padding: 10px;
+    border: 2px solid rgba(68, 68, 68, 1);
+    color: rgba(204, 204, 204, 1);
+}
+
+.contact-text h3{
+    text-align: center;
+}
